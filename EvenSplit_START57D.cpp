@@ -5,7 +5,7 @@ int countOfXs(string s, char x){
 	int e = s.length();
 	int no_of_x = 0;
 	for (int i = 0; i < e; i++) if (s[i] == x)no_of_x++;
-	return no_of_x;
+	return  no_of_x;
 }
 
 string lexSmallestBinaryString(string s){
